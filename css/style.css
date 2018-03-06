@@ -54,8 +54,8 @@ a {
 .mt-100 {
   margin-top: 100px; }
 
-.mb-50 {
-    margin-bottom: 50px !important;
+.mb-20 {
+    margin-bottom: 20px !important;
 }
 
 .bg-1 {
@@ -354,8 +354,8 @@ a:active {
 }
 
 .team{
-background-color:#fff;
-padding:60px 0px;
+  background-color:#fff;
+  padding:60px 0px;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -375,6 +375,12 @@ padding:60px 0px;
   border-radius: 50%;
 }
 
+.icon{
+    color: #3b4045;
+}
+  .icon:visited { 
+    color: #3b4045;
+  }
 
 /*--
     Feature-list start
