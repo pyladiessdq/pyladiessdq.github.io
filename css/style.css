@@ -54,6 +54,10 @@ a {
 .mt-100 {
   margin-top: 100px; }
 
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
 .bg-1 {
   background-image: url(../images/call-to-action.jpg); }
 
@@ -229,8 +233,11 @@ a:active {
     font-size: 60px;
     font-weight: bold;
     padding-bottom: 19px;
-    margin-top: 30px;
+    margin-top: 70px;
     line-height: 1.2; }
+    .hero-area img{
+      margin-top: 30px;
+    }
   .hero-area p {
     font-size: 20px;
     line-height: 1.3; }
