@@ -68,7 +68,7 @@ $(document).ready(function () {
                     const srcEnd = item.description.substring(srcStart).indexOf('"') + srcStart; // Find where the URL ends
                     const src = item.description.substring(srcStart, srcEnd); // Extract just the URL
                     // tslint:disable-next-line:max-line-length
-                    output += '<div class="blog-element"><img class="img-responsive" src="' + src + '" width="360px" height="240px"></div></header>';
+                    output += '<div class="blog-element"><img class="img-fluid" src="' + src + '" width="360px" height="240px"></div></header>';
                     output += '<div class="blog-content"><h4><a href="' + item.link + '">' + item.title + '</a></h4>';
                     output += '<div class="post-meta"><span>By ' + item.author + '</span></div>';
                     const yourString = item.description.replace(/<img[^>]*>/g, ''); // replace with your string.
